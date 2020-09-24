@@ -1,0 +1,256 @@
+/* |||||||||||||| start : main rules ||||||||||||||*/
+.clearfix{clear: both;}
+
+body{
+    text-transform: capitalize;
+}
+
+h2,h3{
+    text-transform: uppercase;
+}
+
+p {
+    text-transform: none;
+}
+
+.container {
+    width: 1080px;
+    margin: auto;
+}
+
+ul,ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* |||||||||||||| end : main rules ||||||||||||||*/
+
+/* |||||||||||||| start : Header ||||||||||||||*/
+
+    header .slider {
+        background-image: url("../images/header.jpg");
+        -webkit-background-size: cover; /*CSS3*/
+        -moz-background-size: cover; /*CSS3*/
+        -o-background-size: cover; /*CSS3*/
+        background-size: cover; /*CSS3*/
+        height:1080px;
+    }
+   
+    header .slider .intro {
+        padding-top: 350px;
+        text-align: center;
+        color: #FFF;
+    }
+
+    header .slider .intro h2 {
+        font-size: 60px;
+        width:900px;
+        padding: 5px 0;
+        margin: 0 auto;
+        border-top: 5px solid #FFF;
+        border-bottom: 5px solid #FFF;
+    }
+
+    header .slider .intro button {
+        background:none;
+        color: #FFF;
+        margin-top: 40px;
+        font-size: 20px;
+        border: 1px solid #FFF;
+        font-weight: bold;
+        padding: 10px 20px;
+    }
+
+    header nav {
+        background-color: rgb(37,47,49);
+        color: #ffffff;
+        overflow: hidden;
+    }
+
+    header nav h2 {
+        float:left;
+    }
+
+    header nav h2 span {color: rgb(163, 116, 14);}
+
+    header nav ul {
+        overflow: hidden;
+        float: right;
+    }
+
+    header nav ul li {
+        float: left;
+        padding:25px 10px;
+    }
+
+    header nav ul li a {
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    header nav ul li.active a,
+    header nav ul li a:hover {
+        color: #30B576;
+    }
+
+/* |||||||||||||| end : Header ||||||||||||||*/
+
+/* |||||||||||||| start : Features ||||||||||||||*/
+
+.features {
+    overflow:hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+
+.features .feature {
+    float: left;
+    width:33.3%;
+    min-height: 150px;
+    
+}
+
+.features .feature h2 {
+    color:#555;
+}
+
+.features .feature p {
+    line-height:1.7;
+    color:#888;
+}
+
+/* |||||||||||||| end : Features ||||||||||||||*/
+
+/* |||||||||||||| start : About me ||||||||||||||*/
+
+.about_me {
+    background:rgb(241,241,241);
+    overflow:hidden;
+}
+
+.about_me .image {
+    float: left;
+    width:30%;
+}
+
+.about_me .image img {width: 100%;}
+
+.about_me .info {
+    float: left;
+    width: 65%;
+    margin-left: 5%;
+}
+
+
+.about_me .info .tech_hobbies {
+    overflow:hidden;
+    margin: 20px;
+}
+
+.about_me .info .tech_hobbies > div {
+    float: left;
+    width: 50%;
+    min-height: 80px;
+}
+
+/* |||||||||||||| end : About me||||||||||||||*/
+
+/* |||||||||||||| start : My Skills||||||||||||||*/
+
+.my_skills {
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+.my_skills .skills,
+.my_skills .progress {
+    float: left;
+    width: 50%;
+}
+
+/* |||||||||||||| end : My Skills||||||||||||||*/
+
+/* |||||||||||||| start : Resume||||||||||||||*/
+
+.resume {
+    background:rgb(241,241,241);
+    padding:30px 0;
+    text-align: center;
+}
+
+/* |||||||||||||| end : Resume||||||||||||||*/
+
+/* |||||||||||||| start : My Education & Work Exp||||||||||||||*/
+
+.my_education {
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+.my_education .education,
+.my_education .certificates,
+.my_education .work,
+.my_education .exp {
+    float: left;
+    width: 50%;
+}
+
+/* |||||||||||||| end : My Education & Work Exp||||||||||||||*/
+
+/* |||||||||||||| start : Testimonials||||||||||||||*/
+
+.testimonials {
+    background:rgb(241,241,241);
+    padding:30px 0;
+    text-align: center;
+}
+
+/* |||||||||||||| end : Testimonials||||||||||||||*/
+
+/* |||||||||||||| start : Portfolio||||||||||||||*/
+.portfolio {
+    padding:30px 0;
+    text-align: center;
+    overflow: hidden;
+}
+.portfolio .our_work >div {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 10px;
+}
+.portfolio .our_work >div img {
+    width: 92%;
+    margin: 10px;
+}
+/* |||||||||||||| end : Portfolio||||||||||||||*/
+
+/* |||||||||||||| start : Contact me||||||||||||||*/
+.contact {
+    background-color: #252F31;
+    overflow: hidden;
+}
+.contact h2 {
+    color: #FFF;
+}
+.contact p {
+     color: #6A6E71;
+}
+
+.contact .info,
+.contact .form {
+    width: 50%;
+    float: left;
+}
+
+/* |||||||||||||| end : Contact me||||||||||||||*/
+
+/* |||||||||||||| start : Footer||||||||||||||*/
+footer {
+    background-color: rgb(25,30,34);
+    color:#6A6E71;
+    padding: 20px 0;
+    text-align: center;
+}
+/* |||||||||||||| end : Footer||||||||||||||*/
