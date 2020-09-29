@@ -38,14 +38,14 @@ ul,ol {
     }
    
     header .slider .intro {
-        padding-top: 350px;
+        padding-top: 336px;
         text-align: center;
-        color: #FFF;
+        color: rgb(255, 255, 255);
     }
 
     header .slider .intro h2 {
         font-size: 60px;
-        width:900px;
+        width:1000px;
         padding: 5px 0;
         margin: 0 auto;
         border-top: 5px solid #FFF;
@@ -55,7 +55,7 @@ ul,ol {
     header .slider .intro button {
         background:none;
         color: #FFF;
-        margin-top: 40px;
+        margin-top: 49px;
         font-size: 20px;
         border: 1px solid #FFF;
         font-weight: bold;
