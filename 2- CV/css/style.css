@@ -132,29 +132,68 @@ ul,ol {
 
 .about_me .image {
     float: left;
-    width:30%;
+    width:40%;
+    
 }
 
-.about_me .image img {width: 100%;}
+.about_me .image img {
+    height: 600px;
+    width: 100%;
+}
 
 .about_me .info {
     float: left;
-    width: 65%;
+    width: 55%;
     margin-left: 5%;
 }
 
+.about_me .info h2 {
+    margin: 30px 0 20px 10px;
+    color: #444;
+}
+
+
+.about_me .info p {
+    margin: 0 0 20px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.about_me .info > p {
+    margin: 0 0 40px 10px;
+}
+
+.about_me .info > p:last-of-type {margin-top: 30px}
 
 .about_me .info .tech_hobbies {
     overflow:hidden;
-    margin: 20px;
+    margin: 2f0px 0 0 0;
 }
 
-.about_me .info .tech_hobbies > div {
+.about_me .info .tech_hobbies .content {
     float: left;
     width: 50%;
     min-height: 80px;
+    overflow: hidden;
 }
 
+.about_me .info .tech_hobbies .content h3 {color: #444;}
+
+.about_me .info .tech_hobbies .content .icon {
+    float: left;
+    width:12%;
+    margin-right: 5%;
+}
+
+.about_me .info .tech_hobbies .content .icon img {
+    max-width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.about_me .info .tech_hobbies .content .text {
+    float: left;
+    width:83%;
+}
 /* |||||||||||||| end : About me||||||||||||||*/
 
 /* |||||||||||||| start : My Skills||||||||||||||*/
