@@ -1,9 +1,10 @@
 /* |||||||||||||| start : main rules ||||||||||||||*/
 .clearfix{clear: both;}
 
-h2,h3{
-    text-transform: uppercase;
-    color: #444;
+ul,ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .container {
@@ -11,12 +12,19 @@ h2,h3{
     margin: auto;
 }
 
-p {color: #666;}
+h2,h3{
+    text-transform: uppercase;
+    color: #444;
+}
 
-ul,ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+p {
+    color: #666;
+    line-height: 1.5;
+}
+
+hr {
+    margin: 20px 0;
+    color: #999;
 }
 
 /* |||||||||||||| end : main rules ||||||||||||||*/
@@ -103,13 +111,9 @@ ul,ol {
 
 .features .feature {
     float: left;
-    width:33.3%;
+    width:29.3%;
+    padding: 2%;
     min-height: 150px; 
-}
-
-
-.features .feature p {
-    line-height:1.7;
 }
 
 /* |||||||||||||| end : Features ||||||||||||||*/
@@ -140,10 +144,7 @@ ul,ol {
 .about_me .info h2 {margin: 30px 0 20px 10px;}
 
 
-.about_me .info p {
-    margin: 0 0 20px 0;
-    line-height: 1.6;
-}
+.about_me .info p {margin: 0 0 20px 0;}
 
 .about_me .info > p {
     margin: 0 0 40px 10px;
@@ -196,10 +197,7 @@ ul,ol {
 .my_skills .skills h2 {margin: 30px 0 20px 30px;}
 
 
-.my_skills .skills p {
-    margin: 0 0 20px 30px;
-    line-height: 1.6;
-}
+.my_skills .skills p {margin: 0 0 20px 30px;}
 
 .my_skills .skills p:last-of-type {margin-top: 30px}
 
@@ -245,8 +243,6 @@ ul,ol {
 .resume p {
     margin-top: 40px;
     padding:0 40px;
-    line-height: 1.7;
-    
 }
 
 .resume button {margin-top: 15px;}
@@ -261,12 +257,39 @@ ul,ol {
     overflow: hidden;
 }
 
-.my_education .education,
-.my_education .certificates,
-.my_education .work,
-.my_education .exp {
+.my_education .general
+{
     float: left;
     width: 50%;
+    margin-right: 5%;
+}
+
+.my_education .exp {
+    float: left;
+    width: 45%;
+}
+
+.my_education .general
+{margin: 30px 0 20px 0;}
+
+.my_education .general p {margin: 0 0 20px 0px;}
+
+.my_education .general p:last-of-type {margin-top: 20px}
+
+.my_education .exp h3 {margin-top: 100px;}
+
+.my_education .exp span {
+    display: block;
+    margin-top: 10px;
+}
+
+.my_education .exp span:first-of-type {color:#999}
+
+.my_education .exp span:last-of-type {
+    background-color: #2DCC70;
+    color:#FFF;
+    display: inline-block;
+    padding: 4px 8px;
 }
 
 /* |||||||||||||| end : My Education & Work Exp||||||||||||||*/
