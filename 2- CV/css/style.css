@@ -298,30 +298,71 @@ hr {
 
 .testimonials {
     background:rgb(241,241,241);
-    padding:30px 0;
+    padding-top: 50px;
+    padding-bottom: 40px;
     text-align: center;
 }
+
+.testimonials q {
+    color: #888;
+    font: italic bold 18px/1.8 Arial,Tahoma,;
+}
+
+.testimonials ul {
+    list-style: none;
+    text-align: center;
+}
+
+.testimonials ul li {
+    list-style: none;
+    width: 7px;
+    height: 7px;
+    border:2px solid #2DCC70;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 10px;
+    margin: 15px 5px 0 0;
+}
+
+.testimonials ul li.active,
+.testimonials ul li:hover
+{background-color: #2DCC70;}
 
 /* |||||||||||||| end : Testimonials||||||||||||||*/
 
+
+
 /* |||||||||||||| start : Portfolio||||||||||||||*/
 .portfolio {
-    padding:30px 0;
+    padding-top: 40px;
+    padding-bottom: 60px;
     text-align: center;
     overflow: hidden;
 }
+
+.portfolio .our_work div {
+    background-color: #F1F1F1;
+    margin: 1%;
+    padding: 10px 0 ;
+}
+
 .portfolio .our_work >div {
     float: left;
-    width: 33.3%;
+    width: 31.2%;
     margin-bottom: 10px;
 }
-.portfolio .our_work >div img {
+
+.portfolio .our_work div img {
     width: 92%;
-    margin: 10px;
 }
+
+
+
+
 /* |||||||||||||| end : Portfolio||||||||||||||*/
 
 /* |||||||||||||| start : Contact me||||||||||||||*/
+
 .contact {
     background-color: #252F31;
     overflow: hidden;
@@ -342,12 +383,14 @@ hr {
 /* |||||||||||||| end : Contact me||||||||||||||*/
 
 /* |||||||||||||| start : Footer||||||||||||||*/
+
 footer {
     background-color: rgb(25,30,34);
     color:#6A6E71;
     padding: 20px 0;
     text-align: center;
 }
+
 /* |||||||||||||| end : Footer||||||||||||||*/
 
 /* |||||||||||||| start : My Framework||||||||||||||*/
