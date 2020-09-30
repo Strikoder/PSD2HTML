@@ -1,22 +1,17 @@
 /* |||||||||||||| start : main rules ||||||||||||||*/
 .clearfix{clear: both;}
 
-body{
-    text-transform: capitalize;
-}
-
 h2,h3{
     text-transform: uppercase;
-}
-
-p {
-    text-transform: none;
+    color: #444;
 }
 
 .container {
     width: 1080px;
     margin: auto;
 }
+
+p {color: #666;}
 
 ul,ol {
     margin: 0;
@@ -40,7 +35,7 @@ ul,ol {
     header .slider .intro {
         padding-top: 336px;
         text-align: center;
-        color: rgb(255, 255, 255);
+        
     }
 
     header .slider .intro h2 {
@@ -50,6 +45,7 @@ ul,ol {
         margin: 0 auto;
         border-top: 5px solid #FFF;
         border-bottom: 5px solid #FFF;
+        color: white;
     }
 
     header .slider .intro button {
@@ -108,17 +104,12 @@ ul,ol {
 .features .feature {
     float: left;
     width:33.3%;
-    min-height: 150px;
-    
+    min-height: 150px; 
 }
 
-.features .feature h2 {
-    color:#555;
-}
 
 .features .feature p {
     line-height:1.7;
-    color:#888;
 }
 
 /* |||||||||||||| end : Features ||||||||||||||*/
@@ -146,16 +137,12 @@ ul,ol {
     margin-left: 1%;
 }
 
-.about_me .info h2 {
-    margin: 30px 0 20px 10px;
-    color: #444;
-}
+.about_me .info h2 {margin: 30px 0 20px 10px;}
 
 
 .about_me .info p {
     margin: 0 0 20px 0;
     line-height: 1.6;
-    color: #444;
 }
 
 .about_me .info > p {
@@ -175,8 +162,6 @@ ul,ol {
     min-height: 80px;
     overflow: hidden;
 }
-
-.about_me .info .tech_hobbies .content h3 {color: #444;}
 
 .about_me .info .tech_hobbies .content .icon {
     float: left;
@@ -208,31 +193,22 @@ ul,ol {
     width: 50%;
 }
 
-.my_skills .skills h2 {
-    margin: 30px 0 20px 30px;
-    color: #444;
-}
+.my_skills .skills h2 {margin: 30px 0 20px 30px;}
 
 
 .my_skills .skills p {
     margin: 0 0 20px 30px;
     line-height: 1.6;
-    color: #444;
 }
 
 .my_skills .skills p:last-of-type {margin-top: 30px}
 
 .my_skills .skills button {
-    background: none;
-    border: 3px solid #2DCC70;
-    padding: 10px 30px;
-    color: #2DCC70;
+    margin-top: 20px;
     margin-left: 30px;
 }
 
 .my_skills .progress .technique {margin-left: 50px;}
-
-.my_skills .progress .technique h3 {color: #444;}
 
 .my_skills .progress .technique div {
     background-color: #F2F2F2;
@@ -261,9 +237,20 @@ ul,ol {
 
 .resume {
     background:rgb(241,241,241);
-    padding:30px 0;
+    padding-top:60px;
+    padding-bottom: 70px;
     text-align: center;
 }
+
+.resume p {
+    margin-top: 40px;
+    padding:0 40px;
+    line-height: 1.7;
+    
+}
+
+.resume button {margin-top: 15px;}
+
 
 /* |||||||||||||| end : Resume||||||||||||||*/
 
@@ -339,3 +326,15 @@ footer {
     text-align: center;
 }
 /* |||||||||||||| end : Footer||||||||||||||*/
+
+/* |||||||||||||| start : My Framework||||||||||||||*/
+
+.my_button {
+    background: none;
+    border: 3px solid #2DCC70;
+    padding: 10px 30px;
+    color: #2DCC70;
+    font-weight: bold;
+}
+
+/* |||||||||||||| end : My Framework||||||||||||||*/
