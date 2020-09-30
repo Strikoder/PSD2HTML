@@ -341,7 +341,6 @@ hr {
 }
 
 .portfolio .our_work div {
-    background-color: #F1F1F1;
     margin: 1%;
     padding: 10px 0 ;
 }
@@ -352,12 +351,14 @@ hr {
     margin-bottom: 10px;
 }
 
-.portfolio .our_work div img {
+.portfolio .our_work >div img {
     width: 92%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #F1F1F1;
+    border: 2px solid #CCC;
+    box-shadow: 10px 10px 6px #CCC;
 }
-
-
-
 
 /* |||||||||||||| end : Portfolio||||||||||||||*/
 
