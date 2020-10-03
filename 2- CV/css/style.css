@@ -84,11 +84,11 @@ ul,ol {margin: 0;padding: 0;list-style: none;}
 
 .about_me .info .tech_hobbies .content {width: 50%;min-height: 80px;overflow: hidden;}
 
-.about_me .info .tech_hobbies .content .icon {width:12%;margin-right: 5%;}
+.about_me .info .tech_hobbies .content .icon {width:15%;margin-right: 5%;}
 
 .about_me .info .tech_hobbies .content .icon img {max-width: 100%;margin: 10px 0 0 0;}
 
-.about_me .info .tech_hobbies .content .text {width:83%;}
+.about_me .info .tech_hobbies .content .text {width:80%;}
 
 /* |||||||||||||| end : About me||||||||||||||*/
 
@@ -325,6 +325,8 @@ p {color: #666;line-height: 1.5;}
 h2,h3{text-transform: uppercase;color: #444;}
 
 a {color:#FFF;}
+
+.my_button a {text-decoration:none;color: #2DCC70;}
 
 hr {margin: 20px 0;color: #999;}
 
