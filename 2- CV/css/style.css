@@ -1,32 +1,9 @@
 /* |||||||||||||| start : main rules ||||||||||||||*/
 .clearfix{clear: both;}
 
-ul,ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+ul,ol {margin: 0;padding: 0;list-style: none;}
 
-.container {
-    width: 1080px;
-    margin: auto;
-}
-
-h2,h3{
-    text-transform: uppercase;
-    color: #444;
-}
-
-p {
-    color: #666;
-    line-height: 1.5;
-}
-
-hr {
-    margin: 20px 0;
-    color: #999;
-}
-
+.container {width: 1080px;margin: auto;}
 /* |||||||||||||| end : main rules ||||||||||||||*/
 
 /* |||||||||||||| start : Header ||||||||||||||*/
@@ -40,11 +17,7 @@ hr {
         height:1080px;
     }
    
-    header .slider .intro {
-        padding-top: 336px;
-        text-align: center;
-        
-    }
+    header .slider .intro {padding-top: 336px;text-align: center;}
 
     header .slider .intro h2 {
         font-size: 60px;
@@ -66,152 +39,77 @@ hr {
         padding: 10px 20px;
     }
 
-    header nav {
-        background-color: rgb(37,47,49);
-        color: #ffffff;
-        overflow: hidden;
-    }
-
-    header nav h2 {
-        float:left;
-    }
+    header nav {background-color: rgb(37,47,49);color: #ffffff;overflow: hidden;}
 
     header nav h2 span {color: rgb(163, 116, 14);}
 
-    header nav ul {
-        overflow: hidden;
-        float: right;
-    }
+    header nav ul {overflow: hidden;float: right;}
 
-    header nav ul li {
-        float: left;
-        padding:25px 10px;
-    }
+    header nav ul li {float: left;padding:25px 10px;}
 
-    header nav ul li a {
-        color: #FFF;
-        text-decoration: none;
-    }
+    header nav ul li a {color: #FFF;text-decoration: none;}
 
     header nav ul li.active a,
-    header nav ul li a:hover {
-        color: #30B576;
-    }
+    header nav ul li a:hover {color: #30B576;}
 
 /* |||||||||||||| end : Header ||||||||||||||*/
 
 /* |||||||||||||| start : Features ||||||||||||||*/
 
-.features {
-    overflow:hidden;
-    padding-top: 40px;
-    padding-bottom: 50px;
-    
-}
+.features {overflow:hidden;padding-top: 40px;padding-bottom: 50px;}
 
-.features .feature {
-    float: left;
-    width:29.3%;
-    padding: 2%;
-    min-height: 150px; 
-}
+.features .feature {width:29.3%;padding: 2%;min-height: 150px; }
 
 /* |||||||||||||| end : Features ||||||||||||||*/
 
 /* |||||||||||||| start : About me ||||||||||||||*/
 
-.about_me {
-    background:rgb(241,241,241);
-    overflow:hidden;
-}
+.about_me {background:rgb(241,241,241);overflow:hidden;}
 
-.about_me .image {
-    float: left;
-    width:36%;
-    
-}
+.about_me .image {width:36%;}
 
-.about_me .image img {
-    height: 550px;
-}
+.about_me .image img {height: 550px;}
 
-.about_me .info {
-    float: left;
-    width: 63%;
-    margin-left: 1%;
-}
+.about_me .info {float: left;width: 63%;margin-left: 1%;}
 
 .about_me .info h2 {margin: 30px 0 20px 10px;}
 
-
 .about_me .info p {margin: 0 0 20px 0;}
 
-.about_me .info > p {
-    margin: 0 0 40px 10px;
-}
+.about_me .info > p {margin: 0 0 40px 10px;}
 
 .about_me .info > p:last-of-type {margin-top: 30px}
 
-.about_me .info .tech_hobbies {
-    overflow:hidden;
-    margin: 2f0px 0 0 0;
-}
+.about_me .info .tech_hobbies {overflow:hidden;margin: 2f0px 0 0 0;}
 
-.about_me .info .tech_hobbies .content {
-    float: left;
-    width: 50%;
-    min-height: 80px;
-    overflow: hidden;
-}
+.about_me .info .tech_hobbies .content {width: 50%;min-height: 80px;overflow: hidden;}
 
-.about_me .info .tech_hobbies .content .icon {
-    float: left;
-    width:12%;
-    margin-right: 5%;
-}
+.about_me .info .tech_hobbies .content .icon {width:12%;margin-right: 5%;}
 
-.about_me .info .tech_hobbies .content .icon img {
-    max-width: 100%;
-    margin: 10px 0 0 0;
-}
+.about_me .info .tech_hobbies .content .icon img {max-width: 100%;margin: 10px 0 0 0;}
 
-.about_me .info .tech_hobbies .content .text {
-    float: left;
-    width:83%;
-}
+.about_me .info .tech_hobbies .content .text {width:83%;}
+
 /* |||||||||||||| end : About me||||||||||||||*/
 
 /* |||||||||||||| start : My Skills||||||||||||||*/
 
-.my_skills {
-    padding:30px 0 40px 0 ;
-    overflow: hidden;
-}
+.my_skills {padding:30px 0 40px 0;overflow: hidden;}
 
 .my_skills .skills,
-.my_skills .progress {
-    float: left;
-    width: 50%;
-}
+.my_skills .progress {width: 50%;}
 
 .my_skills .skills h2 {margin: 30px 0 20px 30px;}
-
 
 .my_skills .skills p {margin: 0 0 20px 30px;}
 
 .my_skills .skills p:last-of-type {margin-top: 30px}
 
-.my_skills .skills button {
-    margin-top: 20px;
-    margin-left: 30px;
-}
+.my_skills .skills button {margin-top: 20px;margin-left: 30px;}
 
 .my_skills .progress .technique {margin-left: 50px;}
 
-.my_skills .progress .technique div {
-    background-color: #F2F2F2;
-    height: 25px;
-}
+.my_skills .progress .technique div {background-color: #F2F2F2;height: 25px;}
 
 .my_skills .progress .technique div span {
     background-color: #2DCC70;
@@ -240,37 +138,21 @@ hr {
     text-align: center;
 }
 
-.resume p {
-    margin-top: 40px;
-    padding:0 40px;
-}
+.resume p {margin-top: 40px;padding:0 40px;}
 
 .resume button {margin-top: 15px;}
-
 
 /* |||||||||||||| end : Resume||||||||||||||*/
 
 /* |||||||||||||| start : My Education & Work Exp||||||||||||||*/
 
-.my_education {
-    padding: 30px 0;
-    overflow: hidden;
-}
+.my_education {padding: 30px 0;overflow: hidden;}
 
-.my_education .general
-{
-    float: left;
-    width: 50%;
-    margin-right: 5%;
-}
+.my_education .general {width: 50%;margin-right: 5%;}
 
-.my_education .exp {
-    float: left;
-    width: 45%;
-}
+.my_education .exp {float: left;width: 45%;}
 
-.my_education .general
-{margin: 30px 0 20px 0;}
+.my_education .general {margin: 30px 0 20px 0;}
 
 .my_education .general p {margin: 0 0 20px 0px;}
 
@@ -278,10 +160,7 @@ hr {
 
 .my_education .exp h3 {margin-top: 100px;}
 
-.my_education .exp span {
-    display: block;
-    margin-top: 10px;
-}
+.my_education .exp span {display: block;margin-top: 10px;}
 
 .my_education .exp span:first-of-type {color:#999}
 
@@ -303,33 +182,25 @@ hr {
     text-align: center;
 }
 
-.testimonials q {
-    color: #888;
-    font: italic bold 18px/1.8 Arial,Tahoma,;
-}
+.testimonials q {color: #666;font: italic bold 18px/1.8 Arial,Tahoma,;}
 
-.testimonials ul {
-    list-style: none;
-    text-align: center;
-}
+.testimonials ul {list-style: none;text-align: center;}
 
 .testimonials ul li {
     list-style: none;
-    width: 7px;
-    height: 7px;
+    width: 8px;
+    height: 8px;
     border:2px solid #2DCC70;
     display: inline-block;
     cursor: pointer;
-    padding-left: 10px;
     margin: 15px 5px 0 0;
+    border-radius: 50%;
 }
 
 .testimonials ul li.active,
-.testimonials ul li:hover
-{background-color: #2DCC70;}
+.testimonials ul li:hover {background-color: #2DCC70;}
 
 /* |||||||||||||| end : Testimonials||||||||||||||*/
-
 
 
 /* |||||||||||||| start : Portfolio||||||||||||||*/
@@ -340,12 +211,10 @@ hr {
     overflow: hidden;
 }
 
-.portfolio .our_work div {
-    margin: 1%;
-    padding: 10px 0 ;
-}
+.portfolio .our_work div {margin: 1%;padding: 10px 0;}
 
 .portfolio .our_work >div {
+    /*I left this float over here because it dosen't matter for me if the float was right or left in terms of pictures unlike texts*/
     float: left;
     width: 31.2%;
     margin-bottom: 10px;
@@ -366,21 +235,56 @@ hr {
 
 .contact {
     background-color: #252F31;
+    color:#ADADAD;
     overflow: hidden;
+    padding: 50px 0 60px 0;
 }
-.contact h2 {
+
+.contact .info {width: 50%;margin-right: 10%;}
+
+.contact h2 {color: #FFF;}
+
+.contact p {color: #6A6E71;}
+
+.contact address p {margin: 70px 0 20px 0;}
+
+.contact .info address a:hover {color:#666;}
+
+.contact address strong {color: #ADADAD;}
+
+.contact form {width: 40%;}
+
+.contact form label {display: block;color: #D1D6DA;margin: 10px 0;}
+
+/*
+    You could write a specific type of input
+    Ex: .contact .form input[type="text"] {}
+*/
+.contact form input {
+    background-color: #4B5557;
     color: #FFF;
-}
-.contact p {
-     color: #6A6E71;
-}
-
-.contact .info,
-.contact .form {
-    width: 50%;
-    float: left;
+    padding: 5px 0;
+    border: 0;
+    width: 60%;
 }
 
+.contact form textarea {
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px 0;
+    border: 0;
+    width: 80%;
+    height: 200px;
+}
+
+.contact form input[type="submit"] {
+    background-color: #191E22;
+    color: #FFF;
+    border: 0;
+    width: 40%;
+    height: 50px;
+    margin:20px 0 ;
+}
 /* |||||||||||||| end : Contact me||||||||||||||*/
 
 /* |||||||||||||| start : Footer||||||||||||||*/
@@ -390,6 +294,16 @@ footer {
     color:#6A6E71;
     padding: 20px 0;
     text-align: center;
+}
+
+footer ul li {display: inline-block;cursor: pointer;}
+
+footer ul img {
+    width: 36px;
+    height: 36px;
+    margin: 0 4px;
+    background-color: #485355;
+    border-radius: 50%;
 }
 
 /* |||||||||||||| end : Footer||||||||||||||*/
@@ -403,5 +317,15 @@ footer {
     color: #2DCC70;
     font-weight: bold;
 }
+
+.fl_left {float: left;} /*I wrote this in frame work cause it will be easier if I wanted to make arabic ver of the website*/
+
+p {color: #666;line-height: 1.5;}
+
+h2,h3{text-transform: uppercase;color: #444;}
+
+a {color:#FFF;}
+
+hr {margin: 20px 0;color: #999;}
 
 /* |||||||||||||| end : My Framework||||||||||||||*/
