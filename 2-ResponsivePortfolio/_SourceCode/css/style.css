@@ -1,28 +1,23 @@
-/* |||||||||||||| start : main rules ||||||||||||||*/
-body {
-    background:#161616;
-    font-family: 'Noto Naskh Arabic', serif;
-}
+/* |||||||||||||| start : Global rules ||||||||||||||*/
+body {background:#161616;font-family: 'Noto Naskh Arabic', serif;}
 
-
-ul,ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+ul,ol {margin: 0;padding: 0;list-style: none;}
 
 a {text-decoration: none;}
-
+/* |||||||||||||| start : main ||||||||||||||*/
 #main {
     width: 100%;
-    height: 100vh;
+    height: 102vh;
     box-sizing: border-box;
     background-color: #edf1fd;
     position: relative;
-    background-image: ;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: right bottom;
 }
 
-nav {
+#main nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,26 +36,16 @@ nav {
     z-index: 1;
 }
 
-.menu {
-    display: flex;
-}
-
-.menu li a {
-    padding: 10px 15px ;
-    color:#6c707c;
-    font-size: 12px;
-}
-
-.lang {
-    color: #292929;
-}
-
-.logo {
-    font-size: 25px;
-    font-weight: bold;
+#main nav .logo {
+    width: 70px;
+    margin-left: 50px;
     color: #292929;
     font-family: Poppins;
 }
+
+#main nav .menu {display: flex;}
+
+#main nav .menu li a {padding: 10px 15px ;color:#6c707c;font-size: 12px;}
 
 .menu li a:hover,
 .active
@@ -71,7 +56,9 @@ nav {
     transition: all ease 0.4s;
 }
 
-.name {
+#main nav .lang {color: #292929;margin-right: 50px;}
+
+#main .name {
     font-family: calibri;
     width: 500px;
     position: absolute;
@@ -80,13 +67,10 @@ nav {
     transform: translate(-20%,-50%);
 }
 
-.name p:nth-child(1),
-.name .details {
-    color: #6c707c;
-    font-size: 16px;
-}
+#main .name p:nth-child(1),
+#main .name .details {color: #6c707c;font-size: 16px;}
 
-.name h1 {
+#main .name h1 {
     font-family: Poppins;
     font-size: 40px;
     margin: 0px;
@@ -94,7 +78,7 @@ nav {
     color: #292929;
 }
 
-.cv-btn {
+#main .name .cv-btn {
     width:200px;
     height: 45px;
     display: flex;
@@ -104,24 +88,7 @@ nav {
     color:#fff;
 }
 
-.cv-btn:hover {
-    background-color: #131313;
-    transition: all ease 0.5s;
-}
+#main .name .cv-btn:hover {background-color: #131313;transition: all ease 0.5s;}
 
-/* |||||||||||||| end : main rules ||||||||||||||*/
+/* |||||||||||||| end : main ||||||||||||||*/
 
-/* |||||||||||||| start : Header ||||||||||||||*/
-
-
-/* |||||||||||||| end : Header ||||||||||||||*/
-
-/* |||||||||||||| start : Content ||||||||||||||*/
-
-
-/* |||||||||||||| end : Content ||||||||||||||*/
-
-/* |||||||||||||| start : footer ||||||||||||||*/
-
-
-/* |||||||||||||| end : footer ||||||||||||||*/
