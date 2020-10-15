@@ -1,2 +1,2 @@
 # PSD2HTML
-This is my first project with HTML&amp;CSS
+Here are some projects made by me to practice HTML & CSS
