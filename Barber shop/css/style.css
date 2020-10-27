@@ -110,7 +110,7 @@ nav ul li a {text-decoration: none;color: #fff;}
 
 /* |||||||||||||| end : banner ||||||||||||||*/
 
-/* |||||||||||||| start : Feature ||||||||||||||*/
+/* |||||||||||||| Start : Feature ||||||||||||||*/
 
 #feature {width: 100%;padding: 70px 0;}
 
@@ -177,9 +177,30 @@ nav ul li a {text-decoration: none;color: #fff;}
     margin-bottom: 40px;
 }
 
+.feature-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: #009688;
+    border: 1px solid #009688;
+}
 
+.feature-text p {
+    padding: 0 20px;
+    text-align: initial;
+}
 
 /* |||||||||||||| end : Feature ||||||||||||||*/
+
+/* |||||||||||||| Start : Service ||||||||||||||*/
+#service {
+    width: 100%;
+    padding: 70px 0;
+    background: #efefef;
+}
+/* |||||||||||||| end : Service ||||||||||||||*/
 
 @media screen and (max-width: 770px) {
     .banner-text h1 {
@@ -188,5 +209,17 @@ nav ul li a {text-decoration: none;color: #fff;}
     .banner-btn a {
         display: block;
         margin: 20px auto;
+    }
+    .title-text h1 {
+        font-size: 35px;
+    }
+    .features {
+        flex-basis: 100%;
+    }
+    .features-img {
+        flex-basis: 100%;
+    }
+    .features-img img {
+        width: 100%;
     }
   }
