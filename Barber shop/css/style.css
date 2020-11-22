@@ -45,7 +45,7 @@ ul,ol {
 
 .banner-text h1 {font-size: 130px;}
 
-.banner-text p {font-size: 20px;font-style: italic;}
+.banner-text p {font-size: 20px;}
 
 .banner-btn {margin: 70px auto 0;}
 
@@ -285,9 +285,113 @@ hr {
     border-radius: 5px;
     box-shadow: 0 10px 20px 3px #00968814;
     cursor: pointer;
+    transition: transform .5s;
 }
+
+.testimonial-col p {
+    font-size: 14px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.user img {
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.user-info .fab {
+    margin-left: 10px;
+    color: #27c0ff;
+    font-size: 20px;
+}
+
+.user-info small {color: #009688;} 
+
+.testimonial-col:hover {transform: translateY(7px);}
 /* |||||||||||||| end : Testimonial ||||||||||||||*/
 
+/* |||||||||||||| start : Footer ||||||||||||||*/
+footer {
+    padding: 100px 0 20px;
+    background: #efefef;
+    position: relative;
+}
+
+.footer-row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-right {
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-row h1 {
+    margin: 10px 0;
+}
+
+.footer-row p {
+    line-height: 35px;
+}
+
+.footer-left .fas,.footer-right .fas {
+    font-size: 20px;
+    color: #008688;
+    margin: 10px;
+}
+
+.footer-img {
+    max-width: 370px;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links .fab {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #009688;
+    margin: 40px 5px 0;
+    color: #009688;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.social-links .fab:hover {
+    background: #009688;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.social-links p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/* |||||||||||||| end : Footer ||||||||||||||*/
 @media screen and (max-width: 770px) {
     .banner-text h1 {
         font-size: 44px;
@@ -316,5 +420,16 @@ hr {
 
     .single-service:hover .service-desc{bottom:25% !important;}
 
+    .testimonial-col {
+        flex-basis: 100%;
+    }
 
+    .footer-left, .footer-right {
+        flex-basis: 100%;
+        font-size: 11px;
+    }
+
+    .footer-img {
+        top: 25%;
+    }
   }
