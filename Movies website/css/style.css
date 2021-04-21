@@ -9,7 +9,7 @@
 
 body {
     background:#DDD;
-    font-family: 'Noto Naskh Arabic', serif;
+    font-family: serif;
 }
 
 
@@ -17,6 +17,11 @@ ul,ol {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
 }
 
 /* |||||||||||||| end : main rules ||||||||||||||*/

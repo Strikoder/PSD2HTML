@@ -3,13 +3,11 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
-
 }
 
 body {
     background:#DDD;
-    font-family: 'Noto Naskh Arabic', serif;
+    font-family: serif;
 }
 
 
@@ -19,12 +17,41 @@ ul,ol {
     list-style: none;
 }
 
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
 /* |||||||||||||| end : main rules ||||||||||||||*/
 
-/* |||||||||||||| start : Header ||||||||||||||*/
+/* |||||||||||||| start : Nav ||||||||||||||*/
 
 
-/* |||||||||||||| end : Header ||||||||||||||*/
+nav .brand {
+    float: left;
+    width: 49%;
+    margin-left: 1%;
+}
+
+nav .links {
+    float: left;
+    width: 50%;
+}
+
+nav .links li {
+    display: inline-block;
+    padding: 25px 30px;
+    border-bottom: 2px solid transparent;
+}
+
+nav .links li.active,
+nav .links li:hover {
+    color: #1abc9c;
+    border-bottom: 2px solid #1abc9c;
+}
+
+
+/* |||||||||||||| end : Nav ||||||||||||||*/
 
 /* |||||||||||||| start : Content ||||||||||||||*/
 
@@ -35,3 +62,10 @@ ul,ol {
 
 
 /* |||||||||||||| end : footer ||||||||||||||*/
+
+/* |||||||||||||| start : Framework ||||||||||||||*/
+/*I could use it instead of writing overflow=hidden each time*/
+.clearfix {
+    clear: both;
+}
+/* |||||||||||||| end : Framework ||||||||||||||*/
