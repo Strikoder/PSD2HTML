@@ -26,22 +26,30 @@ ul,ol {
 
 /* |||||||||||||| start : Nav ||||||||||||||*/
 
+nav {
+    font-size: 20px;
+    /*One of the methods to make a transparent header*/
+    height: 0;
+    color:#DDD;
+}
 
 nav .brand {
     float: left;
-    width: 49%;
+    width: 59%;
     margin-left: 1%;
 }
 
 nav .links {
     float: left;
-    width: 50%;
+    width: 40%;
 }
 
 nav .links li {
     display: inline-block;
-    padding: 25px 30px;
+    padding: 25px 0;
+    margin: 0 10px;
     border-bottom: 2px solid transparent;
+    font-weight: bold;
 }
 
 nav .links li.active,
@@ -53,10 +61,14 @@ nav .links li:hover {
 
 /* |||||||||||||| end : Nav ||||||||||||||*/
 
-/* |||||||||||||| start : Content ||||||||||||||*/
+/* |||||||||||||| start : Header ||||||||||||||*/
 
+.header {
+    background: url('../images/header.jpg');
+    height: 600px;
+}
 
-/* |||||||||||||| end : Content ||||||||||||||*/
+/* |||||||||||||| end : Header ||||||||||||||*/
 
 /* |||||||||||||| start : footer ||||||||||||||*/
 
